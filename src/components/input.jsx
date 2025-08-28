@@ -8,17 +8,17 @@ function Input({
   type = "text",
 }) {
   return (
-    <>
-      <h3>{label}</h3>
+    <div className="w-full mb-4">
+      <h3 className="mb-2 font-semibold text-lg">{label}</h3>
       <input
-        className="border  rounded-lg p-2 focus:ring-2 focus:ring-blue-400 outline-none"
+        className="w-full border rounded-xl p-4 text-lg focus:ring-2 focus:ring-blue-500 outline-none"
         type={type}
         name={name}
         value={value}
         onChange={onChange}
         placeholder={placeholder}
       />
-    </>
+    </div>
   );
 }
 

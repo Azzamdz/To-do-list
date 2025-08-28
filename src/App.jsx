@@ -118,7 +118,7 @@ function App() {
 
       {/* FOOTER */}
       <footer className="bg-white/10 backdrop-blur-md border-t border-white/20 py-3 sm:py-4 text-center text-gray-300 text-xs sm:text-sm px-4">
-        COPYRIGHT © 2025
+        Azzamdzz © 2025
       </footer>
     </div>
   );

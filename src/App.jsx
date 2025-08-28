@@ -58,9 +58,7 @@ function App() {
         </h1>
       </header>
 
-      {/* MAIN */}
       <main className="flex-1 container mx-auto px-4 sm:px-6 lg:px-12 py-8 sm:py-10 font-poppins">
-        {/* FORM */}
         <div className="bg-white/10 backdrop-blur-lg shadow-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 mb-10 sm:mb-12 border border-white/20 hover:shadow-2xl transition">
           <div className="space-y-4 sm:space-y-6 text-base sm:text-lg font-semibold font-poppins">
             <Input
@@ -97,7 +95,6 @@ function App() {
           </div>
         </div>
 
-        {/* LIST */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {todos.length === 0 ? (
             <p className="col-span-full text-center text-gray-300 italic text-sm sm:text-base"></p>
@@ -116,7 +113,6 @@ function App() {
         </div>
       </main>
 
-      {/* FOOTER */}
       <footer className="bg-white/10 backdrop-blur-md border-t border-white/20 py-3 sm:py-4 text-center text-gray-300 text-xs sm:text-sm px-4">
         Azzamdzz © 2025
       </footer>
